@@ -57,5 +57,5 @@ tdbcli_tdb_CFLAGS = -Isrc/ \
                     -O3 \
                     -g \
                     -Wall
-tdbcli_tdb_SOURCES = tdbcli/main.c tdbcli/op_dump.c tdbcli/op_make.c tdbcli/jsmn/jsmn.c
+tdbcli_tdb_SOURCES = tdbcli/main.c tdbcli/op_dump.c tdbcli/op_make.c tdbcli/jsmn/jsmn.c tdbcli/filter.c tdbcli/tdb_index.c
 tdbcli_tdb_LDADD = libtraildb.la
